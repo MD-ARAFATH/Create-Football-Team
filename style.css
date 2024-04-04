@@ -1,0 +1,161 @@
+.full-element {
+  padding: 4px;
+  margin: 4px;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+.player-selection ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.player-selection li {
+  margin-bottom: 5px;
+}
+
+.budget-calculation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#budgetInput,
+#calculateButton {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#calculationResults {
+  /* Style for displaying calculated results */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: gray;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700px;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  font-size: 17px;
+  color: white;
+}
+
+h6 {
+  text-align: center;
+  font-size: 15px;
+  color: aqua;
+}
+
+.flexiable-container {
+  display: flex;
+  width: 1200px;
+
+  border-radius: 10px;
+  background-color: #161616;
+  margin: auto;
+}
+.half-width {
+  width: 50%;
+
+  color: chocolate;
+}
+.text-content {
+  padding: 70px;
+}
+.half-width img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 8em;
+}
+
+.matches {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 20px;
+  background-color: antiquewhite;
+  color: #1e1e1e;
+  font-style: normal;
+  font-weight: 500;
+}
+.match {
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.match .match-banner img {
+  width: 100%;
+}
+.match-baner-two img {
+  padding: 10px;
+  margin: 0;
+  margin: auto;
+}
+
+.match-detaile {
+  padding: 15px;
+}
+
+.football-match {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  width: 1200px;
+  margin: auto;
+}
+
+footer {
+  background-color: black;
+  padding: 40px 0;
+}
+hr {
+  border: 0.1px solid #ffffff;
+  margin: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .flexiable-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  .matches {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  footer {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+}
